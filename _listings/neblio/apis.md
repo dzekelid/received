@@ -9,11 +9,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-nebl
 x-kinRank: "7"
 x-alexaRank: "350300"
 tags: Received
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/received/master/_listings/neblio/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Neblio REST API Suite - Returns total received by address in sats
+  x-api-slug: insaddraddresstotalreceived-get
+  description: Returns total NEBL received by address in satoshis
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/received/master/_listings/neblio/insaddraddresstotalreceived-get-openapi.md
+- name: Neblio REST API Suite - Returns total received by address in sats
+  x-api-slug: testnetinsaddraddresstotalreceived-get
+  description: Returns total NEBL received by address in satoshis
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg
+  humanURL: https://nebl.io
+  baseURL: https://ntp1node.nebl.io//
+  tags: Enterprise, Technology, SaaS, Blockchain, Profiles, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/received/master/_listings/neblio/testnetinsaddraddresstotalreceived-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://nebl.io/feed/
